@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- These are the options displayed in the sale drop-down Spinner -->
+    <string-array name="array_sale_options">
+        <item>@string/no_sale</item>
+        <item>@string/small_sale</item>
+        <item>@string/medium_sale</item>
+        <item>@string/huge_sale</item>
+    </string-array>
+    <!-- These are the options displayed in the status drop-down Spinner -->
+    <string-array name="array_status_options">
+        <item>@string/status_not_shipped</item>
+        <item>@string/status_shipped</item>
+        <item>@string/status_in_transit</item>
+        <item>@string/status_delivered</item>
+    </string-array>
+    <!-- These are the options displayed in the delivery drop-down Spinner -->
+    <string-array name="array_delivery_options">
+        <item>@string/usual_delivery</item>
+        <item>@string/expedite_delivery</item>
+    </string-array>
+</resources>
